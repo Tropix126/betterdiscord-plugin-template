@@ -12,7 +12,6 @@ async function build(args) {
         },
         ...config.esbuild
     });
-    console.log(`✅ Compiled successfully in ${(Math.round(performance.now() - start))}ms`);
 }
 
 function generateMeta(obj) {

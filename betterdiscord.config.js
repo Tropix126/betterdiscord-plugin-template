@@ -12,6 +12,7 @@ export default {
         sourcemap: true,
         format: "cjs",
         target: "esnext",
-        jsx: "transform"
+        jsx: "transform",
+        logLevel: "info"
     }
 }
