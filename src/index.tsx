@@ -1,13 +1,12 @@
 import {
     React,
-    findModuleByProps,
-    showConfirmationModal
+    showToast
 } from "betterdiscord/bdapi";
-
-const Button = findModuleByProps("BorderColors");
 
 export default class Plugin {
     start() {
-        showConfirmationModal(<Button>Test</Button>);
+        showToast("Hello World!", {
+            type: "info"
+        });
     }
 }
