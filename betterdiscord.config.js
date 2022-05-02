@@ -1,8 +1,9 @@
 export default {
     meta: {
         name: "Plugin",
-        description: "A plugin for BetterDiscord",
-        author: "me"
+        description: "A plugin for BetterDiscord.",
+        version: "0.0.1",
+        author: "me",
     },
     esbuild: {
         entryPoints: ["./src/index.tsx"],

@@ -4,7 +4,7 @@ import {
     showConfirmationModal
 } from "betterdiscord/bdapi";
 
-const { Button } = findModuleByProps("BorderColors");
+const Button = findModuleByProps("BorderColors");
 
 export default class Plugin {
     start() {
