@@ -7,7 +7,6 @@ async function build(args) {
     const start = performance.now();
     await esbuild.build({
         watch: args.includes("--dev"),
-        sourcemap: args.includes("--dev"),
         banner: {
             js: generateMeta(config.meta)
         },

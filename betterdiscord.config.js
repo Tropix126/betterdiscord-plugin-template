@@ -9,6 +9,7 @@ export default {
         outfile: "./dist/Plugin.plugin.js",
         external: ["betterdiscord"],
         bundle: true,
+        sourcemap: true,
         format: "cjs",
         target: "esnext",
         jsx: "transform"
