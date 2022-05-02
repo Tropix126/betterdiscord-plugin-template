@@ -1,0 +1,12 @@
+{
+    "name": "betterdiscord-plugin",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "dev": "node ./scripts/build --dev",
+        "build": "node ./scripts/build"
+    },
+    "devDependencies": {
+        "esbuild": "^0.14.36"
+    }
+}

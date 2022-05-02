@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.tsx"],
+  "sourcesContent": ["import {\r\n    React,\r\n    findModuleByProps,\r\n    showConfirmationModal\r\n} from \"betterdiscord/bdapi\";\r\n\r\nconst { Button } = findModuleByProps(\"BorderColors\");\r\n\r\nexport default class Plugin {\r\n    start() {\r\n        showConfirmationModal(<Button>Test</Button>);\r\n    }\r\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,mBAIO;AAEP,IAAM,EAAE,WAAW,oCAAkB,cAAc;AAEnD,mBAA4B;AAAA,EACxB,QAAQ;AACJ,4CAAsB,iDAAC,cAAO,MAAI,CAAS;AAAA,EAC/C;AACJ;",
+  "names": []
+}
