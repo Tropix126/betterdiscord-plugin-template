@@ -1,7 +1,7 @@
-import {
+const {
     React,
     showToast
-} from "betterdiscord/bdapi";
+} = BdApi;
 
 export default class Plugin {
     start() {
